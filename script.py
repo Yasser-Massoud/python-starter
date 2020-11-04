@@ -25,5 +25,10 @@
 
 #########
 # INSERT YOUR CODE BELOW THIS LINE
+num=[]
+for number in range(2000, 3200):
+    if (number%7 == 0 ) and (number%5 !=0):
+        num.append(str(number))
+print (num)
 #########
 
